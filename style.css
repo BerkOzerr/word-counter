@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: start;
+  background: linear-gradient(
+    60deg,
+    rgba(235, 27, 27, 0.5),
+    rgba(49, 49, 222, 0.6)
+  );
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+}
+.container h1 {
+  font-size: 48px;
+  font-weight: 500;
+  color: white;
+  margin-top: 50px;
+}
+#words-counter {
+  display: block;
+  border: none;
+  outline: none;
+  resize: none;
+  width: 50%;
+  padding: 16px 24px;
+  border-radius: 14px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 50px 0;
+}
+#btn-cw {
+  border: none;
+  outline: none;
+  padding: 18px 36px;
+  border-radius: 50px;
+  background: rgba(235, 27, 27, 0.5);
+  color: whitesmoke;
+  transition: all 1.2s;
+  margin-bottom: 25px;
+}
+#btn-cw:hover {
+  background: rgba(49, 49, 222, 0.6);
+  opacity: 0.8;
+  cursor: pointer;
+}
+.container p {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+#words {
+  margin-left: 15px;
+  font-size: 48px;
+  color: lightgreen;
+}
