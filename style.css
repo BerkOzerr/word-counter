@@ -64,7 +64,7 @@ body {
   align-items: center;
 }
 
-#words {
+.container p span {
   margin-left: 15px;
   font-size: 48px;
   color: lightgreen;
